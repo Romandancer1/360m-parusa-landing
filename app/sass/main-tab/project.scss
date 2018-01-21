@@ -1,0 +1,126 @@
+.project-page__tab {
+  height: 100%;
+}
+
+.project-page__tab-content {
+  display: none;
+  height: 100%;
+}
+
+.project__history {
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project__history-paragraph {
+  text-align: center;
+  margin-bottom: 25px;
+}
+#project-map {
+  display: block;
+}
+
+.project-parametrs {
+  padding-top: 150px;
+  max-width: 800px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.project-parametrs__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin-bottom: 35px;
+
+}
+.project-parametrs__article img {
+  margin-bottom: 15px;
+}
+
+.project-parametrs__article {
+  cursor: pointer;
+  min-width: 200px;
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.project-parametrs__article-value {
+  font-size: 21px;
+  font-weight: bold;
+  color: white;
+}
+
+.project-page__background::before {
+  z-index: -1;
+  content: "";
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.project-page__background-item {
+  z-index: -2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+.project-page__tab-content:before {
+  z-index: -1;
+  content: "";
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.project-parametrs__article--etage:hover .project-page__background-item--etage {
+  display: block;
+}
+
+.project-parametrs__article--material:hover .project-page__background-item--material {
+  display: block;
+}
+
+.project-parametrs__article--ready:hover .project-page__background-item--ready {
+  display: block;
+}
+
+.project-parametrs__article--decoration:hover .project-page__background-item--decoration {
+  display: block;
+}
+
+.project-parametrs__article--parking:hover .project-page__background-item--parking {
+  display: block;
+}
+
+.project-parametrs__article--flats:hover .project-page__background-item--flats {
+  display: block;
+}
+
+
+.project-parametrs__article--class:hover .project-page__background-item--class {
+  display: block;
+}
+
+.project-parametrs__article--form:hover .project-page__background-item--form {
+  display: block;
+}
+
+.page__tab-background--lowpriority {
+  z-index: -2;
+}
+
+

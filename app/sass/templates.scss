@@ -1,0 +1,18 @@
+.page-tab__container {
+  position: fixed;
+  bottom: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.tabs__menu {
+  display: flex;
+  font-size: 13px;
+}
+.tabs__menu li a {
+  margin-right: 25px;
+}
+.tabs__menu .current a {
+  font-weight: bold;
+}

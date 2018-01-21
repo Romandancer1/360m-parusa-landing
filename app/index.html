@@ -1,0 +1,381 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+
+    <!--FONTS-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--JS-->
+    <script src="lib/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+
+
+
+    <!--CONTENT-->
+   <div>
+       <!--HEADER-->
+       <header class="header">
+          <div class="container header__container">
+              <ul class="header__tabs-menu">
+                  <li class="current"><a href="#main">Главная</a></li>
+                  <li><a href="#project">О проекте</a></li>
+                  <li><a href="#lay-out">Планировки</a></li>
+                  <li><a href="#infrastructure">Инфраструктра</a></li>
+                  <li><a href="#about-builder">О застройщике</a></li>
+              </ul>
+
+              <p class="header__phone">+7 (3452) 68-55-22</p>
+
+              <button class="button header__callback">Заказать звонок</button>
+          </div>
+       </header>
+       <!--CONTENT-->
+       <div class="page__tab">
+           <!--MAIN-TAB-->
+           <div  class="page__tab-content" id="main">
+               <div class="page__tab-background">
+                   <img class="page__tab-background-picture" src="img/building-1.jpg" alt="" style="z-index: -2">
+               </div>
+               <div class="tabs__container">
+                   <div class="main container">
+                       <h2 class="main__subtitle">жилой комплекс</h2>
+                       <h1 class="main__title">«Паруса»</h1>
+
+                       <p class="main__description">
+                           Дома с самой высокой этажностью в компании Новый город,
+                           9 жилых башен высотой 18 этажей
+                       </p>
+
+                       <button class="main__project">
+                           <img src="img/play-button.png" alt="Кнопка пуск">
+
+                       </button>
+
+                   </div>
+               </div>
+           </div>
+
+           <!--PROJECT-TAB-->
+           <div class="page__tab-content" id="project">
+                   <div class="page__tab-background page__tab-background--lowpriority">
+                       <img class="page__tab-background-picture" src="img/building-2.jpg" alt="" style="z-index: -2">
+                   </div>
+                    <div class="page-tab__container">
+                        <ul class="tabs__menu tabs__menu--project">
+                            <li><a href="#project-history">История</a></li>
+                            <li class="current"><a href="#project-map">Расположение</a></li>
+                            <li><a href="#project-parametrs">Параметры</a></li>
+                        </ul>
+                    </div>
+
+                       <!--CONTENT-PROJECT-PAGE-->
+                       <div class="project-page__tab">
+
+                            <!--PROJECT HISTORY TAB-->
+                           <div  class="project-page__tab-content" id="project-history">
+                               <div class="project__history">
+                                   <div class="container">
+                                       <p class="project__history-paragraph">
+                                           Новый жилой комплекс «Атмосфера» находится в Свердловском районе г. Иркутска на пересечении ул. Лермонтова и ул. Академическая.
+                                           Один из самых перспективных районов в плане городской застройки.
+                                           Удобная транспортная развязка, 5-7 минут до центра города по Академическому мосту.
+                                           Остановка общественного транспорта располагается в шаговой доступности - 25 метров.
+                                           Хорошо развитая инфраструктура самого района: школа, 2 детских сада, «Микрохирургия глаза»,
+                                           тюбинговая и лыжная трасса, ледовый городской дворец, спортивный клуб, супермаркеты, торговые центры.
+                                       </p>
+                                       <p class="project__history-paragraph">
+                                           Дома с самой высокой этажностью в компании Новый город, 9 жилых башен высотой 18 этажей.
+                                           У каждого дома будет свое имя. Монолитный железобетонный каркас и современные вентилируемые навесные фасады, на первом этаже и цоколе фасадный кирпич.
+                                           Наземные автостоянки, подземная автопарковка на 125 машиномест,
+                                           3 детских спортивных площадки, специальные ландшафтные зоны возле каждого подъезда,
+                                           два больших двора внутри комплекса с закрытой зоной только для пешеходного пользования «двор без машин».
+                                       </p>
+                                       <p class="project__history-paragraph">
+
+                                           Вид из окон у четырех домов на Ангару, остальные пять смотрят на Мельничный тракт и лесной массив.
+                                           Первые этажи коммерческая недвижимость, соответственно в комплексе будут свои минимаркеты,
+                                           спортивные клубы и танцевальные студии, частные детские сады.
+
+                                       </p>
+                                   </div>
+                               </div>
+                           </div>
+                           <!--PROJECT MAP TAB-->
+
+                           <div  class="project-page__tab-content" id="project-map">
+
+
+                            </div>
+                           <!--PROJECT PARAMETRS TAB-->
+
+                          <div  class="project-page__tab-content" id="project-parametrs">
+
+                              <div class="container">
+                                  <div class="project-parametrs">
+                                      <div class="project-parametrs__wrapper">
+                                          <article class="project-parametrs__article project-parametrs__article--etage">
+                                              <img src="img/play-button.png" alt="Кнопка пуск">
+                                              <h3 class="project-parametrs__article-title">Этажность</h3>
+                                              <span class="project-parametrs__article-value">18</span>
+                                              <img class="project-page__background-item project-page__background-item--etage" src="img/building-1.jpg" alt="">
+                                          </article>
+                                          <article class="project-parametrs__article project-parametrs__article--material">
+                                              <img src="img/play-button.png" alt="Кнопка пуск">
+                                              <h3 class="project-parametrs__article-title">Материал домов</h3>
+                                              <span class="project-parametrs__article-value">Монолит-кирпич</span>
+                                              <img class="project-page__background-item project-page__background-item--material" src="img/building-2.jpg" alt="">
+                                          </article>
+                                          <article class="project-parametrs__article project-parametrs__article--ready">
+                                              <img src="img/play-button.png" alt="Кнопка пуск">
+                                              <h3 class="project-parametrs__article-title">Срок сдачи</h3>
+                                              <span class="project-parametrs__article-value">Дом сдан</span>
+                                              <img class="project-page__background-item project-page__background-item--ready" src="img/building-1.jpg" alt="">
+                                          </article>
+                                          <article class="project-parametrs__article project-parametrs__article--decoration">
+                                              <img src="img/play-button.png" alt="Кнопка пуск">
+                                              <h3 class="project-parametrs__article-title">Отделка квартир</h3>
+                                              <span class="project-parametrs__article-value">Предчистовая</span>
+                                              <img class="project-page__background-item project-page__background-item--decoration" src="img/building-2.jpg" alt="">
+                                          </article>
+                                          <article class="project-parametrs__article project-parametrs__article--parking">
+                                              <img src="img/play-button.png" alt="Кнопка пуск">
+                                              <h3 class="project-parametrs__article-title">Паркинг</h3>
+                                              <span class="project-parametrs__article-value">Подземный</span>
+                                              <img class="project-page__background-item project-page__background-item--parking" src="img/building-1.jpg" alt="">
+                                          </article>
+                                          <article class="project-parametrs__article project-parametrs__article--flats">
+                                              <img src="img/play-button.png" alt="Кнопка пуск">
+                                              <h3 class="project-parametrs__article-title">Количество квартир</h3>
+                                              <span class="project-parametrs__article-value">156</span>
+                                              <img class="project-page__background-item project-page__background-item--flats" src="img/building-2.jpg" alt="">
+                                          </article>
+                                          <article class="project-parametrs__article project-parametrs__article--class">
+                                              <img src="img/play-button.png" alt="Кнопка пуск">
+                                              <h3 class="project-parametrs__article-title">Класс жилья</h3>
+                                              <span class="project-parametrs__article-value">Бизнес</span>
+                                              <img class="project-page__background-item project-page__background-item--class" src="img/building-1.jpg" alt="">
+                                          </article>
+                                          <article class="project-parametrs__article project-parametrs__article--form">
+                                              <img src="img/play-button.png" alt="Кнопка пуск">
+                                              <h3 class="project-parametrs__article-title">Форма покупки</h3>
+                                              <span class="project-parametrs__article-value">214-ФЗ</span>
+                                              <img class="project-page__background-item project-page__background-item--form" src="img/building-2.jpg" alt="">
+                                          </article>
+                                    </div>
+                                  </div>
+                              </div>
+
+
+                          </div>
+                     </div>
+           </div>
+
+
+           <!--LAY-OUT-TAB-->
+           <div  class="page__tab-content" id="lay-out">
+               <div class="page-tab__container">
+                   <ul class="tabs__menu tabs__menu--lay-out">
+                       <li class="current"><a href="#flat1">Квартира 1</a></li>
+                       <li><a href="#flat2">Квартира 2</a></li>
+                       <li><a href="#flat3">Квартира 3</a></li>
+                   </ul>
+               </div>
+
+               <div class="lay-out-page__tab">
+                   <!--FLAT TAB-->
+                   <div  class="lay-out__tab-content" id="flat1">
+                       <div class="container">
+                           <div class="flat">
+                               <div class="flat__description">
+                                   <h4 class="flat__description-title">1-комнатная квартира</h4>
+                                   <p class="flat__description-square">78.2 м<sup>2</sup></p>
+
+                                   <p class="flat__description-parametrs">Параметр 1</p>
+                                   <p class="flat__description-parametrs">Параметр 2</p>
+                                   <p class="flat__description-parametrs flat__description-parametrs--last">Параметр 3</p>
+
+                                   <button class="button flat__description-virtual-tour">Смотреть виртуальный тур</button>
+
+
+                               </div>
+                               <div class="flat__tabs">
+                                   <ul class="flat__tabs-menu">
+                                       <li class="current"><a href="#flat-plan-1">Планировка</a></li>
+                                       <li><a href="#flat-plan-2">3D </a></li>
+                                   </ul>
+
+                                   <div class="flat-page__tab">
+                                       <div class="flat-page__tab-content" id="flat-plan-1">
+                                           <img src="img/flat-picture.png" alt="">
+                                       </div>
+                                       <div class="flat-page__tab-content" id="flat-plan-2">
+
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+
+                   <!--FLAT TAB-->
+                   <div  class="lay-out__tab-content" id="flat2">
+                   </div>
+
+                   <!--FLAT TAB-->
+                   <div  class="lay-out__tab-content" id="flat3">
+                   </div>
+               </div>
+           </div>
+
+           <div class="page__tab-content" id="infrastructure">
+
+                   <div class="infrastructure">
+
+                   </div>
+
+
+
+
+
+           </div>
+           <div  class="page__tab-content" id="about-builder">
+
+                   <div class="about-builder">
+
+
+                   </div>
+
+           </div>
+       </div>
+
+
+
+
+      </div>
+
+
+   <!--FOOTER-->
+    <footer class="footer">
+       <div class="container footer__container">
+           <p class="footer__builder"> ООО “ЗапСибИнтерСтрой” </p>
+           <a class="footer__developer" href="">
+               разработка сайта
+               <img src="" alt="">
+           </a>
+       </div>
+    </footer>
+
+
+<script>
+
+  // выбираем ссылки при загрузке ( основные табы )
+  var headerTabsLinks = $('.header__tabs-menu');
+  var headerTabContainer = $(".page__tab-content");
+  var previousTabClicked, tabClicked = 0;
+
+  $(document).ready(function() {
+    headerTabsLinks.on('click', function(event) {
+      event.preventDefault();
+
+      var headerLinkTarget = $(event.target);
+
+      if (headerLinkTarget.get(0).nodeName === 'A') {
+        showTabs(headerLinkTarget,headerTabContainer);
+
+        // индекс предыдущего таба и удаляем обработчики клика у неактивных табов
+        previousTabClicked = tabClicked;
+        tabClicked = headerLinkTarget.attr("href");
+
+        if (previousTabClicked.length > 0 ) {
+          $(previousTabClicked).find('.tabs__menu').off("click");
+        }
+
+        // навешиваем обработчики только на активные табы
+        switch (headerLinkTarget.attr('href')) {
+
+          case '#project':
+
+
+            var projectTabsLinks = $('.tabs__menu--project');
+            var projectTabsContainer = $('.project-page__tab-content');
+
+            projectTabsLinks.on('click',function (event) {
+              event.preventDefault();
+
+              var projectLinkTarget = $(event.target);
+              if (projectLinkTarget.get(0).nodeName === 'A') {
+                showTabs(projectLinkTarget, projectTabsContainer);
+              }
+            });
+
+
+
+          break;
+
+          case '#lay-out':
+
+          var flatTabsLinks = $(".tabs__menu--lay-out");
+          var flatTabsContainer = $(".lay-out__tab-content");
+
+          flatTabsLinks.on('click',function (event) {
+            event.preventDefault();
+            var flatLinkTarget = $(event.target);
+            if (flatLinkTarget.get(0).nodeName === 'A') {
+              showTabs(flatLinkTarget,flatTabsContainer);
+
+              var flatPageParametrLinks = $(".flat__tabs-menu");
+              var flatPageParametrContainer = $('.flat-page__tab-content');
+
+              flatPageParametrLinks.on('click',function (event) {
+                event.preventDefault();
+                var flatPageLinkTarget = $(event.target);
+                if (flatPageLinkTarget.get(0).nodeName === 'A') {
+                  showTabs(flatPageLinkTarget,flatPageParametrContainer)
+                }
+              });
+
+
+            }
+          });
+
+          break;
+
+        }
+
+      }
+    });
+
+  });
+
+
+
+  
+  /**
+   * Open tabs
+   * @param tabLink
+   * @param tabContainer
+   */
+  function showTabs ( tabLink, tabContainer) {
+        event.preventDefault();
+        tabLink.parent().addClass("current");
+        tabLink.parent().siblings().removeClass("current");
+        var tab = tabLink.attr("href");
+        $(tabContainer).not(tab).css("display", "none");
+        $(tab).fadeIn();
+  }
+
+
+
+
+</script>
+
+</body>
+</html>

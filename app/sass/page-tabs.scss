@@ -1,0 +1,29 @@
+.page__tab-content {
+  display: none;
+  width: 100%;
+  height: 100%;
+
+}
+
+.page__tab-background {
+  z-index: -1;
+  position: fixed;
+}
+.page__tab-background:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.page__tab-background-picture {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  display: block;
+}
